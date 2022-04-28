@@ -49,7 +49,7 @@ export class MailerService {
     @Inject(MAILER_OPTIONS) private readonly mailerOptions: MailerOptions,
     @Optional()
     @Inject(MAILER_TRANSPORT_FACTORY)
-    private readonly transportFactory: IMailerTransportFactory,
+    private readonly transportFactory?: IMailerTransportFactory,
   ) {
     if (!transportFactory) {
       this.transportFactory = new MailerTransportFactory(mailerOptions);
