@@ -1,6 +1,6 @@
 {
   "name": "nestjs-emailer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "description": "NestJS - a mailer module",
   "keywords": [
@@ -35,8 +35,10 @@
     "test": "jest"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
     "glob": "^8.0.1",
-    "inline-css": "^3.0.0",
+    "inline-css": "^4.0.1",
+    "nth-check": "^2.1.1",
     "preview-email": "^3.0.5"
   },
   "optionalDependencies": {
