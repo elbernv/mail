@@ -18,7 +18,7 @@
 ### Installation
 
 ```sh
-npm install --save @nestjs-modules/mailer nodemailer
+npm install --save nestjs-emailer nodemailer
 npm install --save-dev @types/nodemailer
 #or
 yarn add @nestjs-modules/mailer nodemailer
@@ -28,6 +28,7 @@ yarn add -D @types/nodemailer
 **Hint:** handlebars and pug is an optional dependency, if you want to use the template, you must install it.
 
 #### with npm
+
 ```sh
 npm install --save handlebars
 #or
@@ -37,6 +38,7 @@ npm install --save ejs
 ```
 
 #### with yarn
+
 ```sh
 yarn add handlebars
 #or
@@ -45,21 +47,13 @@ yarn add pug
 yarn add ejs
 ```
 
-### Documentation
-
-you can find all the documentation [here](https://nest-modules.github.io/mailer/) for the email module
-
-### Starter kit
-
-- [Sending email-template with outlook](https://github.com/yanarp/nestjs-mailer) - Starter kit, nestjs mailer implementation on outlook smtp with email-template
-
 ### Contributing
 
-* [Cristiam Diaz](https://github.com/cdiaz)
-* [Eduardo Leal](https://github.com/eduardoleal)
-* [Juan Echeverry](https://github.com/juandav)
-* [Pat McGowan](https://github.com/p-mcgowan)
-* [Paweł Partyka](https://github.com/partyka95)
+- [Cristiam Diaz](https://github.com/cdiaz)
+- [Eduardo Leal](https://github.com/eduardoleal)
+- [Juan Echeverry](https://github.com/juandav)
+- [Pat McGowan](https://github.com/p-mcgowan)
+- [Paweł Partyka](https://github.com/partyka95)
 
 ### License
 
